@@ -1,6 +1,34 @@
 {
   "build": {
-    "content": [
+    "content": [{
+        "src": "structured",
+        "files": [
+          "**.yml"
+        ],
+        "exclude": [
+          "toc.yml"
+        ],
+        "dest": "api"
+      },
+      {
+        "src": "structured",
+        "files": [
+          "toc.md",
+          "toc.yml"
+        ],
+        "exclude": [],
+        "dest": "api/{product-name}"
+      },
+      {
+        "src": ".",
+        "files": [
+          "index.md"
+        ],
+        "exclude": [
+          "README.md"
+        ],
+        "dest": "api/{product-name}"
+      },
       {
         "files": [
           "**/*.md",
@@ -18,20 +46,18 @@
         ]
       }
     ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
-      }
-    ],
+    "resource": [{
+      "files": [
+        "**/*.png",
+        "**/*.jpg"
+      ],
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**",
+        "_themes/**",
+        "_themes.pdf/**"
+      ]
+    }],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
