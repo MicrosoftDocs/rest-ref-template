@@ -58,7 +58,12 @@
         "_themes.pdf/**"
       ]
     }],
-    "overwrite": [],
+    "pairing": [
+      {
+        "contentFolder": "structured",
+        "overwriteFragmentsFolder": "authored"
+      }
+    ], 
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/rest-ref-template/breadcrumb/toc.json",
