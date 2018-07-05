@@ -28,22 +28,6 @@
           "README.md"
         ],
         "dest": "api/{product-name}"
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
       }
     ],
     "resource": [{
