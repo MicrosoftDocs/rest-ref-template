@@ -1,5 +1,11 @@
 {
   "build": {
+    "groups": {
+      "default": {
+        "dest": "default",
+        "moniker_range": "{moniker-name}"
+      }
+    },
     "content": [{
         "src": "structured",
         "files": [
@@ -8,7 +14,8 @@
         "exclude": [
           "toc.yml"
         ],
-        "dest": "api"
+        "dest": "api",
+        "group": "default"
       },
       {
         "src": "structured",
