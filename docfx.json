@@ -14,8 +14,8 @@
         "exclude": [
           "toc.yml"
         ],
-        "dest": "api",
-        "group": "default"
+        "group": "default",
+        "dest": "api"
       },
       {
         "src": "structured",
@@ -24,6 +24,7 @@
           "toc.yml"
         ],
         "exclude": [],
+        "group": "default",
         "dest": "api/{product-name}"
       },
       {
