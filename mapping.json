@@ -13,7 +13,6 @@
     "services": [{
       "toc_title": "{service_toc_title}",
       "url_group": "{service_url}",
-      "service_index": "{service_index_path}",
       "swagger_files": [{
         "source": "{local_swagger_src_folder}/{swagger_path}"
       }]
