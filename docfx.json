@@ -3,7 +3,7 @@
     "groups": {
       "default": {
         "dest": "default",
-        "moniker_range": "{moniker_name}"
+        "moniker_range": "playfab-rest"
       }
     },
     "content": [{
@@ -25,7 +25,7 @@
         ],
         "exclude": [],
         "group": "default",
-        "dest": "api/{product_name}"
+        "dest": "api/playfab"
       },
       {
         "src": ".",
@@ -35,7 +35,7 @@
         "exclude": [
           "README.md"
         ],
-        "dest": "api/{product_name}"
+        "dest": "api/playfab"
       }
     ],
     "resource": [{
@@ -58,7 +58,7 @@
     ], 
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/{product_name}/breadcrumb/toc.json",
+      "breadcrumb_path": "/playfab/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },

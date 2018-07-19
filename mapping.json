@@ -6,16 +6,29 @@
   "is_grouped_by_tag": true,
   "version_list": ["default"],
   "organizations": [{
-    "name": "{product_name}",
+    "name": "PlayFab",
     "index": "index.md",
-    "default_toc_title": "Getting Started",
+    "default_toc_title": "PlayFab REST API",
     "version": "default",
     "services": [{
-      "toc_title": "{service_toc_title}",
-      "url_group": "{service_url}",
-      "swagger_files": [{
-        "source": "{local_swagger_src_folder}/{swagger_path}"
-      }]
+      "toc_title": "playfab",
+      "url_group": "playfab",
+      "swagger_files": [
+        {
+          "source": "playfab_api_specs/Swagger/PlayFab/Admin.swagger.json"
+        },
+        {
+          "source": "playfab_api_specs/Swagger/PlayFab/Client.swagger.json"
+        },
+        {
+          "source": "playfab_api_specs/Swagger/PlayFab/Entity.swagger.json"
+        },
+        {
+          "source": "playfab_api_specs/Swagger/PlayFab/Matchmaker.swagger.json"
+        },
+        {
+          "source": "playfab_api_specs/Swagger/PlayFab/Server.swagger.json"
+        }]
     }]
   }]
 }

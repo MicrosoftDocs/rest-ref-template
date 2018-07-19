@@ -1,7 +1,7 @@
 {
   "repo": [{
-    "url": "{swagger_repo}",
-    "branch": "{swagger_repo_branch}",
-    "name": "{local_swagger_src_folder}"
+    "url": "https://github.com/PlayFab/API_Specs",
+    "branch": "master",
+    "name": "playfab_api_specs"
   }]
 }
