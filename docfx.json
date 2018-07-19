@@ -15,7 +15,7 @@
           "toc.yml"
         ],
         "group": "default",
-        "dest": "api"
+        "dest": "api/{product_name}"
       },
       {
         "src": "structured",
