@@ -34,7 +34,7 @@
         ],
         "exclude": [],
         "group": "default",
-        "dest": "api/playfab"
+        "dest": "api/{product_name}"
       },
       {
         "src": ".",
