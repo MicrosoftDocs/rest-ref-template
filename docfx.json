@@ -28,6 +28,15 @@
         "dest": "api/{product_name}"
       },
       {
+        "src": "authored/default",
+        "files": [
+          "**.md"
+        ],
+        "exclude": [],
+        "group": "default",
+        "dest": "api/playfab"
+      },
+      {
         "src": ".",
         "files": [
           "index.md"
