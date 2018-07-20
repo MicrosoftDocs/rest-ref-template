@@ -7,7 +7,7 @@
       }
     },
     "content": [{
-        "src": "structured",
+        "src": "structured/default",
         "files": [
           "**.yml"
         ],
@@ -18,7 +18,7 @@
         "dest": "api/{product_name}"
       },
       {
-        "src": "structured",
+        "src": "structured/default",
         "files": [
           "toc.md",
           "toc.yml"
