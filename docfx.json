@@ -28,15 +28,6 @@
         "dest": "api/{product_name}"
       },
       {
-        "src": "authored/default",
-        "files": [
-          "**.md"
-        ],
-        "exclude": [],
-        "group": "default",
-        "dest": "api/{product_name}"
-      },
-      {
         "src": ".",
         "files": [
           "index.md"
