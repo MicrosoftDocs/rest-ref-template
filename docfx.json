@@ -35,6 +35,7 @@
         "exclude": [
           "README.md"
         ],
+        "group": "default",
         "dest": "api/{product_name}"
       }
     ],
