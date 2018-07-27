@@ -2,7 +2,6 @@
   "target_api_root_dir": "structured",
   "enable_markdown_fragment": true,
   "markdown_fragment_folder": "authored",
-  "temp_target_api_root_dir": "tmp-structured",
   "is_grouped_by_tag": true,
   "version_list": ["default"],
   "organizations": [{
