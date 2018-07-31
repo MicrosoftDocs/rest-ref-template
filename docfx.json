@@ -60,10 +60,16 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/{product_name}/breadcrumb/toc.json",
+      "rest_product": "{product_name}",
+      "titleSuffix": "{product_name} REST API",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope": {
+        "structured/**.yml": ["{product_name}", "REST"]
+      }
+    },
     "template": [],
     "dest": "rest-ref-template",
     "markdownEngineName": "markdig"
