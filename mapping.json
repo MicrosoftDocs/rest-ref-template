@@ -5,7 +5,6 @@
   "is_grouped_by_tag": true,
   "version_list": ["default"],
   "organizations": [{
-    "name": "{product_name}",
     "index": "index.md",
     "default_toc_title": "Getting Started",
     "version": "default",
