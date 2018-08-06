@@ -3,6 +3,7 @@
   "enable_markdown_fragment": true,
   "markdown_fragment_folder": "authored",
   "use_yaml_toc": true,
+  "formalize_url": true,
   "is_grouped_by_tag": true,
   "version_list": ["default"],
   "organizations": [{
