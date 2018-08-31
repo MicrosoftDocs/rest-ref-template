@@ -15,7 +15,7 @@
           "toc.yml"
         ],
         "group": "default",
-        "dest": "api/{product_name}"
+        "dest": "api"
       },
       {
         "src": "structured/default",
@@ -25,7 +25,7 @@
         ],
         "exclude": [],
         "group": "default",
-        "dest": "api/{product_name}"
+        "dest": "api"
       },
       {
         "src": ".",
@@ -36,7 +36,7 @@
           "README.md"
         ],
         "group": "default",
-        "dest": "api/{product_name}"
+        "dest": "api"
       }
     ],
     "resource": [{
