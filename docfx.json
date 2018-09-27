@@ -36,7 +36,7 @@
           "README.md"
         ],
         "group": "default",
-        "dest": "api"
+        "dest": "api/{product_name}"
       }
     ],
     "resource": [{
