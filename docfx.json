@@ -63,7 +63,7 @@
       "rest_product": "{product_name}",
       "titleSuffix": "{product_name} REST API",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "Standard"
     },
     "fileMetadata": {
       "searchScope": {
